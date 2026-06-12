@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jobs bei PAVODENS – Moderne Zahnmedizin in Bobingen | ZFA & ZMP gesucht</title>
+<meta name="description" content="Pünktlich Feierabend, keine Überstunden, 30 Tage Urlaub & überdurchschnittliches Gehalt. PAVODENS in Bobingen bei Augsburg sucht ZFA & ZMP (m/w/d). In 2 Minuten bewerben." />
+<meta name="robots" content="noindex, follow" />
+<meta property="og:title" content="Werde Teil von PAVODENS – Moderne Zahnmedizin in Bobingen" />
+<meta property="og:description" content="Feierabend ist Feierabend. ZFA & ZMP (m/w/d) gesucht – in 2 Minuten bewerben, 100% vertraulich." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  /* ============ TOKENS ============ */
+  :root{
+    --cream:#FAF5EC;
+    --cream-2:#F4ECDC;
+    --paper:#FFFFFF;
+    --ink:#15211D;
+    --ink-soft:#42554E;
+    --teal:#0F5750;
+    --teal-deep:#0A3F39;
+    --mint:#DEEDE6;
+    --mint-2:#C4DDD2;
+    --coral:#E26A4C;
+    --coral-deep:#C5533A;
+    --amber:#F1C25B;
+    --sand:#EFE3D0;
+    --line:rgba(21,33,29,.12);
+    --line-strong:rgba(21,33,29,.22);
+    --shadow-sm:0 1px 2px rgba(10,63,57,.06), 0 4px 14px rgba(10,63,57,.06);
+    --shadow-md:0 12px 40px rgba(10,63,57,.12);
+    --shadow-lg:0 30px 80px rgba(10,63,57,.18);
+    --r-lg:28px; --r-md:18px; --r-sm:12px;
+    --maxw:1180px;
+    --font-d:"Fraunces",Georgia,serif;
+    --font-b:"Hanken Grotesk",-apple-system,system-ui,sans-serif;
+    --ease:cubic-bezier(.22,.61,.36,1);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--font-b);
+    color:var(--ink);
+    background:var(--cream);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  /* grain overlay */
+  body::after{
+    content:"";position:fixed;inset:0;z-index:9999;pointer-events:none;opacity:.04;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    mix-blend-mode:multiply;
+  }
+  a{color:inherit;text-decoration:none}
+  img,svg{display:block}
+  ::selection{background:var(--amber);color:var(--ink)}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:9px;
+    font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--teal);
+  }
+  .eyebrow::before{content:"";width:22px;height:2px;background:var(--coral);border-radius:2px}
+  h1,h2,h3{font-family:var(--font-d);font-weight:600;line-height:1.04;letter-spacing:-.015em}
+  .serif-em{font-style:italic;font-weight:500}
+
+  /* ============ BUTTONS ============ */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    font-family:var(--font-b);font-weight:700;font-size:1.02rem;
+    padding:16px 26px;border-radius:999px;border:1.5px solid transparent;
+    cursor:pointer;transition:transform .25s var(--ease),box-shadow .25s var(--ease),background .25s;
+    white-space:nowrap;
+  }
+  .btn svg{width:18px;height:18px;flex:none}
+  .btn-primary{background:var(--coral);color:#fff;box-shadow:0 10px 24px rgba(197,83,58,.32)}
+  .btn-primary:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(197,83,58,.42);background:var(--coral-deep)}
+  .btn-ghost{background:transparent;border-color:var(--line-strong);color:var(--ink)}
+  .btn-ghost:hover{transform:translateY(-3px);border-color:var(--teal);color:var(--teal);background:rgba(15,87,80,.04)}
+  .btn-dark{background:var(--teal);color:#fff}
+  .btn-dark:hover{transform:translateY(-3px);background:var(--teal-deep);box-shadow:var(--shadow-md)}
+  .btn-sm{padding:11px 18px;font-size:.92rem}
+
+  /* ============ HEADER ============ */
+  header{
+    position:sticky;top:0;z-index:100;
+    transition:background .3s,box-shadow .3s,padding .3s;
+    padding:18px 0;
+  }
+  header.scrolled{background:rgba(250,245,236,.86);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line);padding:11px 0}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand-mark{
+    width:42px;height:42px;border-radius:12px;background:var(--teal);
+    display:grid;place-items:center;color:#fff;flex:none;box-shadow:var(--shadow-sm)
+  }
+  .brand-mark svg{width:24px;height:24px}
+  .brand-name{font-family:var(--font-d);font-weight:600;font-size:1.22rem;letter-spacing:-.01em;line-height:1}
+  .brand-sub{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+  .nav-actions{display:flex;align-items:center;gap:14px}
+  .nav-phone{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--teal)}
+  .nav-phone svg{width:17px;height:17px}
+  @media(max-width:720px){.nav-phone span{display:none}}
+
+  /* ============ HERO ============ */
+  .hero{position:relative;padding:42px 0 70px;overflow:hidden}
+  .blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.55;z-index:0;pointer-events:none}
+  .blob-1{width:520px;height:520px;background:radial-gradient(circle,#BfDDD0,transparent 70%);top:-120px;right:-120px}
+  .blob-2{width:380px;height:380px;background:radial-gradient(circle,#F6D89A,transparent 70%);bottom:-80px;left:-110px;opacity:.4}
+  .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
+  @media(max-width:920px){.hero-grid{grid-template-columns:1fr;gap:40px}}
+  .hero h1{font-size:clamp(2.5rem,5.6vw,4.35rem);margin:22px 0 0}
+  .hl{position:relative;white-space:nowrap}
+  .hl::after{
+    content:"";position:absolute;left:-2px;right:-2px;bottom:.08em;height:.30em;z-index:-1;
+    background:var(--amber);border-radius:4px;transform:rotate(-1deg) scaleX(0);transform-origin:left;
+    animation:hlIn .8s var(--ease) .9s forwards;
+  }
+  @keyframes hlIn{to{transform:rotate(-1deg) scaleX(1)}}
+  .hero-sub{font-size:1.15rem;color:var(--ink-soft);max-width:38ch;margin:24px 0 32px}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .hero-trust{display:flex;align-items:center;gap:10px;margin-top:26px;font-size:.92rem;color:var(--ink-soft)}
+  .hero-trust svg{width:18px;height:18px;color:var(--teal);flex:none}
+  .reveal-stagger>*{opacity:0;transform:translateY(22px);animation:up .8s var(--ease) forwards}
+  .reveal-stagger>*:nth-child(1){animation-delay:.05s}
+  .reveal-stagger>*:nth-child(2){animation-delay:.18s}
+  .reveal-stagger>*:nth-child(3){animation-delay:.31s}
+  .reveal-stagger>*:nth-child(4){animation-delay:.44s}
+  .reveal-stagger>*:nth-child(5){animation-delay:.57s}
+  @keyframes up{to{opacity:1;transform:none}}
+
+  /* hero visual: schedule card */
+  .visual{position:relative;display:flex;justify-content:center;animation:floatIn 1s var(--ease) .35s both}
+  @keyframes floatIn{from{opacity:0;transform:translateY(30px) scale(.97)}to{opacity:1;transform:none}}
+  .sched{
+    position:relative;z-index:2;background:var(--paper);border-radius:var(--r-lg);
+    box-shadow:var(--shadow-lg);padding:28px 28px 24px;width:min(380px,100%);
+    border:1px solid rgba(255,255,255,.7);
+  }
+  .sched-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+  .sched-title{font-family:var(--font-d);font-weight:600;font-size:1.18rem}
+  .sched-badge{font-size:.72rem;font-weight:800;letter-spacing:.05em;color:var(--teal);background:var(--mint);padding:6px 11px;border-radius:999px}
+  .day{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:12px;margin:11px 0}
+  .day-name{font-weight:800;font-size:.82rem;color:var(--ink-soft)}
+  .day-bar{height:14px;border-radius:8px;background:linear-gradient(90deg,var(--teal),#1c7068)}
+  .day-bar.short{background:linear-gradient(90deg,var(--coral),#ef8569)}
+  .day-tag{font-size:.72rem;font-weight:700;color:var(--coral-deep)}
+  .day-tag.muted{color:var(--ink-soft);opacity:.6}
+  .sched-foot{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line);display:flex;align-items:center;gap:10px;font-weight:700;font-size:.95rem}
+  .sched-foot svg{width:20px;height:20px;color:var(--teal)}
+  .chip-float{
+    position:absolute;background:var(--paper);border-radius:14px;box-shadow:var(--shadow-md);
+    padding:11px 15px;font-weight:800;font-size:.9rem;display:flex;align-items:center;gap:8px;z-index:3;
+    border:1px solid var(--line);
+  }
+  .chip-float svg{width:18px;height:18px}
+  .chip-a{top:-20px;left:-26px;color:var(--teal)}
+  .chip-b{bottom:34px;right:-30px;color:var(--coral-deep)}
+  .chip-c{bottom:-22px;left:24px;color:var(--ink)}
+  @media(max-width:920px){.chip-a{left:-6px}.chip-b{right:-6px}}
+  @media(max-width:430px){.chip-float{font-size:.8rem;padding:9px 12px}.chip-b{right:0}}
+
+  /* ============ TICKER ============ */
+  .ticker{background:var(--teal);color:#fff;overflow:hidden;white-space:nowrap;padding:14px 0}
+  .ticker-track{display:inline-flex;gap:0;animation:scroll 32s linear infinite}
+  .ticker:hover .ticker-track{animation-play-state:paused}
+  .ticker-track span{display:inline-flex;align-items:center;font-family:var(--font-d);font-size:1.18rem;font-weight:500;padding:0 30px}
+  .ticker-track span::after{content:"●";color:var(--amber);font-size:.6rem;margin-left:30px;transform:translateY(-3px)}
+  @keyframes scroll{to{transform:translateX(-50%)}}
+
+  /* ============ SECTIONS ============ */
+  section{position:relative}
+  .sec{padding:96px 0}
+  .sec-head{max-width:620px;margin-bottom:52px}
+  .sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+  .sec-head h2{font-size:clamp(2rem,4vw,3rem);margin-top:16px}
+  .sec-head p{color:var(--ink-soft);font-size:1.12rem;margin-top:16px}
+
+  /* problem / solution */
+  .ps{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+  @media(max-width:820px){.ps{grid-template-columns:1fr}}
+  .ps-card{border-radius:var(--r-lg);padding:40px;position:relative;overflow:hidden}
+  .ps-prob{background:var(--cream-2);border:1px solid var(--line)}
+  .ps-sol{background:var(--teal);color:#fff;box-shadow:var(--shadow-md)}
+  .ps-card .tag{font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:16px;display:inline-block}
+  .ps-prob .tag{color:var(--coral-deep)}
+  .ps-sol .tag{color:var(--amber)}
+  .ps-card h3{font-size:1.7rem;margin-bottom:16px}
+  .ps-prob p{color:var(--ink-soft);font-size:1.06rem}
+  .ps-sol p{color:rgba(255,255,255,.9);font-size:1.06rem}
+  .ps-sol::before{content:"";position:absolute;width:240px;height:240px;border-radius:50%;background:rgba(241,194,91,.16);bottom:-90px;right:-70px}
+
+  /* benefits */
+  .bg-cream2{background:var(--cream-2)}
+  .benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  @media(max-width:880px){.benefits{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.benefits{grid-template-columns:1fr}}
+  .b-card{background:var(--paper);border-radius:var(--r-md);padding:30px 26px;border:1px solid var(--line);transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+  .b-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
+  .b-ico{width:52px;height:52px;border-radius:14px;background:var(--mint);display:grid;place-items:center;color:var(--teal);margin-bottom:20px}
+  .b-ico svg{width:26px;height:26px}
+  .b-card h3{font-size:1.28rem;margin-bottom:9px}
+  .b-card p{color:var(--ink-soft);font-size:.98rem}
+
+  /* roles */
+  .roles{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+  @media(max-width:880px){.roles{grid-template-columns:1fr}}
+  .role{background:var(--paper);border-radius:var(--r-lg);padding:34px 30px;border:1px solid var(--line);display:flex;flex-direction:column;position:relative;overflow:hidden;transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+  .role:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
+  .role.is-open{border-top:5px solid var(--coral)}
+  .role.is-pipe{border-top:5px solid var(--mint-2);background:linear-gradient(180deg,#fff,#fcfaf5)}
+  .badge{align-self:flex-start;font-size:.74rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px;margin-bottom:18px}
+  .badge.open{background:var(--coral);color:#fff}
+  .badge.pipe{background:var(--mint);color:var(--teal-deep)}
+  .role h3{font-size:1.4rem;line-height:1.15;margin-bottom:6px}
+  .role .abbr{font-size:.86rem;font-weight:700;color:var(--teal);letter-spacing:.04em;margin-bottom:14px}
+  .role-pitch{color:var(--ink-soft);font-size:.98rem;margin-bottom:20px}
+  .role ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:26px}
+  .role li{display:flex;gap:11px;font-size:.94rem;color:var(--ink)}
+  .role li svg{width:18px;height:18px;color:var(--teal);flex:none;margin-top:3px}
+  .role .btn{margin-top:auto;width:100%}
+
+  /* team / values */
+  .team-wrap{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center}
+  @media(max-width:860px){.team-wrap{grid-template-columns:1fr;gap:36px}}
+  .team-txt p{font-size:1.1rem;color:var(--ink-soft);margin-top:18px}
+  .values{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:430px){.values{grid-template-columns:1fr}}
+  .val{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-md);padding:24px;transition:transform .3s var(--ease)}
+  .val:hover{transform:translateY(-4px)}
+  .val .v-ico{width:46px;height:46px;border-radius:12px;background:var(--sand);display:grid;place-items:center;margin-bottom:14px;color:var(--coral-deep)}
+  .val .v-ico svg{width:24px;height:24px}
+  .val h4{font-family:var(--font-d);font-weight:600;font-size:1.12rem;margin-bottom:5px}
+  .val p{font-size:.9rem;color:var(--ink-soft)}
+
+  /* process */
+  .bg-teal{background:var(--teal);color:#fff}
+  .bg-teal .sec-head h2{color:#fff}
+  .bg-teal .sec-head p{color:rgba(255,255,255,.82)}
+  .bg-teal .eyebrow{color:var(--amber)}
+  .bg-teal .eyebrow::before{background:var(--amber)}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:step}
+  @media(max-width:820px){.steps{grid-template-columns:1fr}}
+  .step{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:var(--r-lg);padding:34px 30px;position:relative}
+  .step-no{font-family:var(--font-d);font-size:3rem;font-weight:600;color:var(--amber);line-height:1;margin-bottom:14px}
+  .step h3{font-size:1.3rem;color:#fff;margin-bottom:10px}
+  .step p{color:rgba(255,255,255,.82);font-size:.97rem}
+
+  /* faq */
+  .faq{max-width:780px;margin:0 auto}
+  .faq details{border-bottom:1px solid var(--line);padding:6px 0}
+  .faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 4px;font-family:var(--font-d);font-weight:600;font-size:1.18rem}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary .pm{flex:none;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--line-strong);display:grid;place-items:center;transition:transform .3s var(--ease),background .3s,border-color .3s}
+  .faq summary .pm svg{width:15px;height:15px;transition:transform .3s var(--ease)}
+  .faq details[open] summary .pm{background:var(--teal);border-color:var(--teal);color:#fff}
+  .faq details[open] summary .pm svg{transform:rotate(45deg)}
+  .faq .ans{padding:0 4px 24px;color:var(--ink-soft);font-size:1.02rem;max-width:64ch}
+
+  /* final CTA */
+  .cta-box{
+    background:linear-gradient(135deg,var(--teal),var(--teal-deep));
+    border-radius:34px;padding:64px 48px;color:#fff;text-align:center;position:relative;overflow:hidden;box-shadow:var(--shadow-lg)
+  }
+  .cta-box::before{content:"";position:absolute;width:340px;height:340px;border-radius:50%;background:rgba(241,194,91,.18);top:-120px;left:-90px}
+  .cta-box::after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:rgba(226,106,76,.22);bottom:-120px;right:-80px}
+  .cta-box>*{position:relative;z-index:1}
+  .cta-box h2{font-size:clamp(1.9rem,4vw,2.9rem);max-width:18ch;margin:14px auto 18px}
+  .cta-box p{color:rgba(255,255,255,.9);font-size:1.1rem;max-width:52ch;margin:0 auto 32px}
+  .cta-actions{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+  .cta-box .btn-primary{box-shadow:0 12px 30px rgba(0,0,0,.25)}
+  .cta-box .btn-light{background:#fff;color:var(--teal-deep)}
+  .cta-box .btn-light:hover{transform:translateY(-3px);background:var(--cream)}
+  .cta-meta{margin-top:30px;display:flex;flex-wrap:wrap;gap:8px 26px;justify-content:center;font-size:.92rem;color:rgba(255,255,255,.8)}
+  .cta-meta span{display:inline-flex;align-items:center;gap:8px}
+  .cta-meta svg{width:16px;height:16px;color:var(--amber)}
+
+  /* footer */
+  footer{background:var(--ink);color:rgba(255,255,255,.72);padding:54px 0 30px}
+  .foot-grid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px;margin-bottom:34px}
+  .foot-brand{display:flex;align-items:center;gap:12px;color:#fff}
+  .foot-brand .brand-mark{background:var(--teal)}
+  .foot-col h5{color:#fff;font-family:var(--font-d);font-weight:600;font-size:1.05rem;margin-bottom:12px}
+  .foot-col a,.foot-col p{display:block;color:rgba(255,255,255,.66);font-size:.94rem;margin-bottom:7px;transition:color .2s}
+  .foot-col a:hover{color:var(--amber)}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.84rem;color:rgba(255,255,255,.45)}
+  .foot-bottom a{color:rgba(255,255,255,.6)}
+
+  /* ============ LOGO & FOTOS ============ */
+  .brand-logo{height:48px;width:auto;display:block;transition:height .3s}
+  header.scrolled .brand-logo{height:40px}
+  .foot-logo-badge{display:inline-flex;background:#fff;padding:13px 17px;border-radius:14px;box-shadow:var(--shadow-sm)}
+  .foot-logo-badge img{height:38px;width:auto;display:block}
+  .hero-photo{position:relative;z-index:1;border-radius:26px;overflow:hidden;box-shadow:var(--shadow-lg);border:6px solid var(--paper);transform:rotate(-1.4deg)}
+  .hero-photo img{display:block;width:100%;height:auto}
+  .visual::before{content:"";position:absolute;inset:auto -8% -12% -8%;height:74%;background:radial-gradient(circle at 55% 60%,var(--mint-2),transparent 70%);filter:blur(34px);opacity:.75;z-index:0}
+  .team-top{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;align-items:center;margin-bottom:50px}
+  @media(max-width:860px){.team-top{grid-template-columns:1fr;gap:32px}}
+  .team-photo{position:relative;border-radius:24px;overflow:hidden;box-shadow:var(--shadow-md);border:6px solid var(--paper);transform:rotate(1.4deg);aspect-ratio:4/5}
+  .team-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+  .values{grid-template-columns:repeat(4,1fr)}
+  @media(max-width:980px){.values{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:440px){.values{grid-template-columns:1fr}}
+
+  /* reveal on scroll */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+  .reveal.in{opacity:1;transform:none}
+  .reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+
+  @media(prefers-reduced-motion:reduce){
+    *,*::after,*::before{animation:none!important;transition:none!important}
+    .reveal{opacity:1;transform:none}
+    .hl::after{transform:rotate(-1deg) scaleX(1)}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header id="hdr">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="PAVODENS – Moderne Zahnmedizin Startseite">
+      <img class="brand-logo" src="assets/logo.png" alt="PAVODENS – Moderne Zahnmedizin" width="1000" height="331" />
+    </a>
+    <div class="nav-actions">
+      <a class="nav-phone" href="tel:+4982343883" aria-label="Anrufen 08234 3883">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        <span>08234 38 83</span>
+      </a>
+      <a class="btn btn-primary btn-sm" href="https://pavodens.onepage.me/bewerbung" data-apply>Jetzt bewerben</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<span id="top"></span>
+<section class="hero">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <div class="wrap hero-grid">
+    <div class="hero-text reveal-stagger">
+      <span class="eyebrow">Zahnarztpraxis Bobingen · bei Augsburg · Wir stellen ein</span>
+      <h1>Pünktlich Feierabend. <span class="hl">Versprochen.</span></h1>
+      <p class="hero-sub">Keine Überstunden, kurzer Mittwoch &amp; Freitag, 30 Tage Urlaub und ein überdurchschnittliches Gehalt. Eine moderne, voll digitale Praxis mit einem Team, das wirklich zusammenhält – wir suchen <strong>dich als ZFA oder ZMP</strong>.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="https://pavodens.onepage.me/bewerbung" data-apply>
+          In 2 Minuten bewerben
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="#stellen">Offene Stellen ansehen</a>
+      </div>
+      <div class="hero-trust">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        100% vertraulich – dein aktueller Chef erfährt nichts.
+      </div>
+    </div>
+
+    <div class="visual">
+      <div class="hero-photo">
+        <img src="assets/foto-1.jpg" alt="Das Team von PAVODENS gemeinsam mit dem Praxisinhaber am Empfang der Praxis in Bobingen" width="1280" height="850" fetchpriority="high" />
+      </div>
+      <div class="chip-float chip-a" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z"/></svg>
+        30 Tage Urlaub
+      </div>
+      <div class="chip-float chip-b" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        0 Überstunden
+      </div>
+      <div class="chip-float chip-c" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        Gehalt über &#8960;
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Keine Überstunden</span><span>30 Tage Urlaub</span><span>Kurzer Mi &amp; Fr</span><span>Überdurchschnittliches Gehalt</span><span>Bezahlte Fortbildungen</span><span>Moderne digitale Praxis</span><span>Ruhiger Chef</span><span>Berufseinsteiger willkommen</span>
+    <span>Keine Überstunden</span><span>30 Tage Urlaub</span><span>Kurzer Mi &amp; Fr</span><span>Überdurchschnittliches Gehalt</span><span>Bezahlte Fortbildungen</span><span>Moderne digitale Praxis</span><span>Ruhiger Chef</span><span>Berufseinsteiger willkommen</span>
+  </div>
+</div>
+
+<!-- ============ PROBLEM / SOLUTION ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Ehrlich gesagt</span>
+      <h2>Du gibst jeden Tag alles. <br>Bekommst du das auch zurück?</h2>
+    </div>
+    <div class="ps">
+      <div class="ps-card ps-prob reveal d1">
+        <span class="tag">So fühlt es sich oft an</span>
+        <h3>Hektik, Überstunden, ein „Danke" zwischen Tür und Angel.</h3>
+        <p>Der Feierabend rückt näher, und trotzdem hängst du wieder eine Stunde dran. Die Tage sind voll, Wertschätzung gibt es höchstens im Vorbeigehen, und das Gehalt passt schon lange nicht mehr zu dem, was du leistest. Irgendwann fragst du dich, ob es woanders nicht doch besser laufen müsste.</p>
+      </div>
+      <div class="ps-card ps-sol reveal d2">
+        <span class="tag">So läuft es bei PAVODENS</span>
+        <h3>Ruhig, strukturiert und mit echtem Rückhalt.</h3>
+        <p>Feierabend ist bei uns Feierabend – ohne Überstunden, dafür mit kurzem Mittwoch und Freitag. Du arbeitest in einer modernen, voll digitalisierten Praxis mit klaren Abläufen, einem ruhigen Chef, der dir den Rücken freihält, und einem Team, das dich gut behandelt. Wir schreiben das nicht hin, weil es gut klingt, sondern weil unsere Leute genau deshalb bleiben.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BENEFITS ============ -->
+<section class="sec bg-cream2">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Deine Benefits</span>
+      <h2>Was du davon hast – ganz konkret.</h2>
+      <p>Keine Buzzword-Wolke. Sondern Dinge, die deinen Alltag und dein Konto spürbar besser machen.</p>
+    </div>
+    <div class="benefits">
+      <div class="b-card reveal">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>Feierabend ist Feierabend</h3>
+        <p>Keine Überstunden, dazu kurzer Mittwoch und kurzer Freitag – dein Leben nach der Arbeit gehört wieder dir.</p>
+      </div>
+      <div class="b-card reveal d1">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>Überdurchschnittliches Gehalt</h3>
+        <p>Fair, transparent und planbar – Mehrverantwortung wird bei uns auch wirklich bezahlt.</p>
+      </div>
+      <div class="b-card reveal d2">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z"/></svg></div>
+        <h3>30 Tage Urlaub</h3>
+        <p>Mehr als der Standard, weil Erholung kein Luxus, sondern die Grundlage für gute Arbeit ist.</p>
+      </div>
+      <div class="b-card reveal">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+        <h3>Ticket oder Tankgutschein</h3>
+        <p>Du entscheidest, was zu deinem Arbeitsweg passt – wir übernehmen den Teil mit dem Geld.</p>
+      </div>
+      <div class="b-card reveal d1">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5"/></svg></div>
+        <h3>Bezahlte Fortbildungen</h3>
+        <p>Wir zahlen deine Weiterbildung – bis zur ZMP, DH oder mehr Verantwortung, ganz wie du dich entwickeln willst.</p>
+      </div>
+      <div class="b-card reveal d2">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h3>Moderne, voll digitale Praxis</h3>
+        <p>Klare Abläufe, kein Papierchaos, kein Improvisieren – Technik, die dir die Arbeit leichter macht.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ROLES ============ -->
+<section class="sec" id="stellen">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Offene Stellen</span>
+      <h2>Diese Plätze warten auf dich</h2>
+      <p>Vollzeit oder Teilzeit (m/w/d). Berufserfahrung brauchst du nicht – eine abgeschlossene Ausbildung und Lust aufs Team reichen.</p>
+    </div>
+    <div class="roles">
+      <div class="role is-open reveal">
+        <span class="badge open">Jetzt offen</span>
+        <h3>Zahnmedizinische Fachangestellte</h3>
+        <span class="abbr">ZFA · Assistenz · m/w/d</span>
+        <p class="role-pitch">Du assistierst, behältst den Überblick und sorgst dafür, dass es rund läuft – mit klaren digitalen Abläufen statt Improvisieren. Frisch aus der Ausbildung? Perfekt, wir bringen dir alles in Ruhe bei.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Assistenz bei Ästhetik, Implantologie &amp; Zahnerhaltung</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Vorbereitung &amp; Betreuung der Behandlungsräume</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Patientenbetreuung mit Herz und ruhigem Händchen</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Digitale Dokumentation &amp; Praxisorganisation</li>
+        </ul>
+        <a class="btn btn-primary" href="https://pavodens.onepage.me/bewerbung" data-apply data-role="zfa">Als ZFA bewerben</a>
+      </div>
+
+      <div class="role is-open reveal d1">
+        <span class="badge open">Jetzt offen</span>
+        <h3>Zahnmedizinische Prophylaxe&shy;assistentin</h3>
+        <span class="abbr">ZMP · Prophylaxe · m/w/d</span>
+        <p class="role-pitch">Du übernimmst die Prophylaxe als eigenen Verantwortungsbereich und baust eine echte Beziehung zu deinen Patientinnen und Patienten auf. Willst du dich weiterentwickeln? Wir zahlen deine Fortbildung bis zur DH.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Eigenständige professionelle Zahnreinigung &amp; Prophylaxe</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Beratung zu Mundgesundheit &amp; Prävention</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Aufbau &amp; Pflege deines eigenen Prophylaxe-Bereichs</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Dokumentation &amp; enge Abstimmung im Team</li>
+        </ul>
+        <a class="btn btn-primary" href="https://pavodens.onepage.me/bewerbung" data-apply data-role="zmp">Als ZMP bewerben</a>
+      </div>
+
+      <div class="role is-pipe reveal d2">
+        <span class="badge pipe">Pipeline · initiativ</span>
+        <h3>Zahntechniker</h3>
+        <span class="abbr">Zahntechnik · m/w/d</span>
+        <p class="role-pitch">Die Stelle ist aktuell besetzt – aber gute Leute haben bei uns immer eine offene Tür. Lust auf eine moderne, digitale Praxis mit kurzen Wegen? Melde dich initiativ, dann sprechen wir, sobald sich etwas ergibt.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Hochwertige zahntechnische Arbeiten in der Praxis</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Kurze, direkte Abstimmung mit dem Behandlungsteam</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Arbeit mit modernen, digitalen Fertigungsabläufen</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Mitgestaltung bei ästhetischen &amp; prothetischen Lösungen</li>
+        </ul>
+        <a class="btn btn-dark" href="https://pavodens.onepage.me/bewerbung" data-apply data-role="zt">Initiativ bewerben</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM / VALUES ============ -->
+<section class="sec bg-cream2">
+  <div class="wrap">
+    <div class="team-top">
+    <div class="team-photo reveal">
+      <img src="assets/foto-2.jpg" alt="Das PAVODENS-Team bei der Behandlung – gute Stimmung im Praxisalltag" width="1280" height="1705" loading="lazy" />
+    </div>
+    <div class="team-txt reveal d1">
+      <span class="eyebrow">Warum unsere Leute bleiben</span>
+      <h2 style="font-size:clamp(1.9rem,3.6vw,2.7rem);margin-top:16px">Ein Chef, der zuhört. Ein Team, das hält.</h2>
+      <p>Bei uns führt ein Chef, der zuhört, ruhig bleibt und dir den Rücken freihält – kein Druck von oben, kein lautes Klima. Wertschätzung heißt hier konkret: eine strukturierte Einarbeitung, in der dir in Ruhe alles gezeigt wird, bezahlte Fortbildung und ein Danke, das man auch hört.</p>
+      <p>Unser Team hält seit Jahren zusammen – ohne Drehtür und ohne Zickenkrieg. Bei regelmäßigen Team-Events wächst das herzliche Miteinander, das du im Alltag spürst. Du kommst zu Menschen, die sich aufeinander verlassen können.</p>
+    </div>
+    </div>
+    <div class="values">
+      <div class="val reveal">
+        <div class="v-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg></div>
+        <h4>Strukturierte Arbeitsweise</h4>
+        <p>Klare Abläufe statt Chaos – du weißt jederzeit, woran du bist.</p>
+      </div>
+      <div class="val reveal d1">
+        <div class="v-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg></div>
+        <h4>Ständige Weiterentwicklung</h4>
+        <p>Bezahlte Fortbildungen und echte Perspektiven für deinen Weg.</p>
+      </div>
+      <div class="val reveal d1">
+        <div class="v-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg></div>
+        <h4>Offene Kommunikation</h4>
+        <p>Deine Meinung zählt – wir reden miteinander, nicht übereinander.</p>
+      </div>
+      <div class="val reveal d2">
+        <div class="v-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/></svg></div>
+        <h4>Empathie &amp; Wertschätzung</h4>
+        <p>Wir behandeln dich so, wie sich Patienten bei uns fühlen sollen: gut.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="sec bg-teal">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">So einfach geht's</span>
+      <h2>In drei ruhigen Schritten zu uns</h2>
+      <p>Kein langes Anschreiben, kein wochenlanges Warten, kein Im-Dunkeln-Tappen.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-no">01</div>
+        <h3>Online bewerben</h3>
+        <p>In rund 2 Minuten und ohne langes Anschreiben – Lebenslauf reicht. Du füllst nur das Wichtigste aus und schickst es ab.</p>
+      </div>
+      <div class="step reveal d1">
+        <div class="step-no">02</div>
+        <h3>Kurzes Telefonat</h3>
+        <p>Wir melden uns innerhalb von 2 Werktagen. Ein lockeres Gespräch zum Kennenlernen – 100% vertraulich, dein aktueller Chef erfährt nichts.</p>
+      </div>
+      <div class="step reveal d2">
+        <div class="step-no">03</div>
+        <h3>Vor Ort in der Praxis</h3>
+        <p>Du lernst das Team und die Räume kennen und schaust, ob es passt. Ganz in Ruhe, ohne Druck und ohne Prüfung.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Gut zu wissen</span>
+      <h2>Häufige Fragen</h2>
+    </div>
+    <div class="faq reveal">
+      <details open>
+        <summary>Ich habe gerade meine Ausbildung abgeschlossen und keine Berufserfahrung. Kann ich mich trotzdem bewerben?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <div class="ans">Unbedingt. Berufserfahrung brauchst du bei uns nicht – Berufseinsteigerinnen und Berufseinsteiger sind herzlich willkommen. Wir arbeiten dich strukturiert und in Ruhe ein und bringen dir alles bei, was du brauchst. Wichtig sind uns eine abgeschlossene Ausbildung, fließendes Deutsch und dass du ein Teamplayer mit Empathie bist.</div>
+      </details>
+      <details>
+        <summary>Geht die Stelle auch in Teilzeit?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <div class="ans">Lass uns darüber sprechen. Uns ist wichtig, dass deine Arbeitszeit zu deinem Leben passt – im kurzen Telefonat finden wir gemeinsam heraus, welches Modell für dich und uns funktioniert.</div>
+      </details>
+      <details>
+        <summary>Ist meine Bewerbung wirklich vertraulich?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <div class="ans">Ja, zu 100%. Deine Bewerbung behandeln wir absolut diskret, dein aktueller Arbeitgeber erfährt nichts von uns. Du kannst dich also in Ruhe umschauen, ohne dass jemand davon Wind bekommt.</div>
+      </details>
+      <details>
+        <summary>Was soll ich anziehen und muss ich Probearbeiten?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <div class="ans">Komm einfach so, wie du dich wohlfühlst – ein gepflegter Alltagslook reicht völlig, du musst dich nicht verkleiden. Beim Termin vor Ort geht es ums Kennenlernen und darum, ob es für beide Seiten passt, nicht um eine Prüfung.</div>
+      </details>
+      <details>
+        <summary>Wie schnell höre ich von euch?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <div class="ans">Schnell. Nach deiner Online-Bewerbung melden wir uns innerhalb von 2 Werktagen telefonisch bei dir. Kein wochenlanges Warten, kein Im-Dunkeln-Tappen.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="sec" style="padding-top:20px">
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <span class="eyebrow" style="color:var(--amber)">Letzter Schritt</span>
+      <h2>Lust auf einen Job, bei dem Feierabend wirklich Feierabend ist?</h2>
+      <p>Bewirb dich in rund 2 Minuten, ganz ohne langes Anschreiben. Wir melden uns innerhalb von 2 Werktagen – 100% vertraulich.</p>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="https://pavodens.onepage.me/bewerbung" data-apply>
+          Jetzt in 2 Minuten bewerben
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn-light" href="tel:+4982343883">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          Lieber anrufen: 08234 38 83
+        </a>
+      </div>
+      <div class="cta-meta">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Antwort in 2 Werktagen</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>100% vertraulich</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Bischof-Ulrich-Str. 2, 86399 Bobingen</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <span class="foot-logo-badge"><img src="assets/logo.png" alt="PAVODENS – Moderne Zahnmedizin" width="1000" height="331" /></span>
+        <p style="margin-top:16px;max-width:30ch">Gemeinsam erfolgreich: Teamgeist, Präzision und exzellente Zahnmedizin in Bobingen.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Kontakt</h5>
+        <a href="tel:+4982343883">08234 38 83</a>
+        <p>Bischof-Ulrich-Straße 2<br>86399 Bobingen</p>
+      </div>
+      <div class="foot-col">
+        <h5>Karriere</h5>
+        <a href="#stellen">Offene Stellen</a>
+        <a href="https://pavodens.onepage.me/bewerbung" data-apply>Jetzt bewerben</a>
+        <a href="tel:+4982343883">Rückruf vereinbaren</a>
+      </div>
+      <div class="foot-col">
+        <h5>Rechtliches</h5>
+        <a href="https://pavodens.onepage.me/" target="_blank" rel="noopener">Impressum</a>
+        <a href="https://pavodens.onepage.me/" target="_blank" rel="noopener">Datenschutz</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr"></span> PAVODENS – Moderne Zahnmedizin. Alle Rechte vorbehalten.</span>
+      <span>Wir freuen uns auf dich (m/w/d).</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // header shadow on scroll
+  const hdr = document.getElementById('hdr');
+  const onScroll = () => hdr.classList.toggle('scrolled', window.scrollY > 24);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+
+  // year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // scroll reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  }, {threshold:.14, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // FAQ: only one open at a time
+  const dets = document.querySelectorAll('.faq details');
+  dets.forEach(d => d.addEventListener('toggle', () => {
+    if (d.open) dets.forEach(o => { if (o !== d) o.open = false; });
+  }));
+
+  /* ---------------------------------------------------------------
+     CONVERSION-TRACKING HOOK
+     Jeder Klick auf einen "Jetzt bewerben"-Button (data-apply) feuert
+     hier. Hier den Google-Ads Conversion-Tag / gtag('event', ...) einbauen.
+     Beispiel:
+       gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/abcdEFGhIJ'});
+  --------------------------------------------------------------- */
+  document.querySelectorAll('[data-apply]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const role = btn.getAttribute('data-role') || 'allgemein';
+      if (typeof window.gtag === 'function') {
+        // window.gtag('event','conversion',{send_to:'AW-XXXXXXXXX/XXXXXXXX', role});
+      }
+      // dataLayer fallback (GTM)
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({event:'bewerbung_klick', role});
+    });
+  });
+</script>
+</body>
+</html>
